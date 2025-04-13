@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test Variable Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Variable Naming Assistant</h1>
+    <label for="description">What does your variable do?</label>
+    <input type="text" id="description" placeholder="e.g. total price after discount" />
+
+    <label for="style">Preferred Naming Style:</label>
+    <select id="style">
+      <option value="camelCase">camelCase</option>
+      <option value="snake_case">snake_case</option>
+    </select>
+
+    <button onclick="getSuggestions()">Suggest Variable Names</button>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
