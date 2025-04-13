@@ -1,4 +1,3 @@
-# Variable-Naming-Assistant
 # 🧠 Variable Naming Assistant
 
 A smart web app that suggests clean, meaningful variable names based on what the variable is supposed to do.
